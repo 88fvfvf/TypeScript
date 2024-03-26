@@ -10,7 +10,7 @@ const Favourites = () => {
             <ul className="list-none">
                 {favorites.map(f => (
                     <li key={f}>
-                        <a href={f}>{f}</a>
+                        <a href={f} target="_blank">{f}</a>
                     </li>
                 ))}
             </ul>
